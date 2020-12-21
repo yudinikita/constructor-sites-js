@@ -33,6 +33,6 @@ export const model = [
       width: '500px',
       height: 'auto'
     },
-    alt: 'Картинка'
+    alt: 'Картинка',
   })
 ];

@@ -28,8 +28,8 @@ export class ImageBlock extends Block {
 	}
 
 	toHTML() {
-		const {imageStyle, alt, styles} = this.options;
-		return row(`<img src="${this.value}" alt="${alt}" style="${imageStyle}" />`, css(styles));
+		const {imageStyles, alt, styles} = this.options;
+		return row(`<img src="${this.value}" alt="${alt}" style="${css(imageStyles)}" />`, css(styles));
 	}
 }
 
